@@ -1,0 +1,1 @@
+docker image build -t kmrachet/practice-transformer:latest .
