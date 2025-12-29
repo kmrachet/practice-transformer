@@ -13,7 +13,7 @@
 
 本コースは全6回のセクション（フェーズ）に分かれています。
 
-### Phase 1: 入力表現と位置情報の埋め込み (Input Embedding & Positional Encoding)
+### [Phase 1: 入力表現と位置情報の埋め込み (Input Embedding & Positional Encoding)](phase_1/phase_1.md)
 
 Transformerは再帰構造を持たないため、単語の順序情報をどのようにベクトル空間に埋め込むかが最初の課題です。
 
