@@ -6,4 +6,6 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONIOENCODING=UTF-8 \
     TZ=Asia/Tokyo
 
+RUN conda install -y -c conda-forge pytorch-lightning
+
 CMD jupyter lab --ip=0.0.0.0 --port=8888 --allow-root
